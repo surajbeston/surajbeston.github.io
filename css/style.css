@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+a{
+    color: rgb(68, 68, 68);
+}
+.container {
+    margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-box {
+    width: 70%;
+    display: inline;
+}
+.search {
+    width: 80%;
+    font-size: 18px;
+    padding: 2px 5px;
+}
+.btn {
+    min-width: 10%;
+}
+
+.card {
+    margin: 10px;
+}
+.card-title {
+    margin-bottom: 40px;
+}
+.card-link {
+    /* justify-self: flex-end; */
+    text-align: right;
+}
+.card-link-div {
+    text-align: right;
+}
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.lot-detail-container {
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black;
+    height: 80vh;
+    box-shadow: 0 5px 5px gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .each-flex {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 5px;
+     width: 50%;
+     background-color: rgb(176, 231, 189);
+     border-radius: 5px;
+     min-height: 25vh;
+     box-shadow: 0 10px 5px rgb(216, 216, 216);
+     margin-bottom: 2vh;
+     font-family: 'Patrick Hand', cursive;
+ }
+ p {
+     margin-bottom: 0px;
+ }
+ 
+ .each-flex-head {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1vh;
+ }
+ .units-flex {
+     text-align: center;
+     margin-top: auto;
+     border-radius: 50%;
+     padding: 20px 30px;
+     box-shadow: 0 2px 5px rgb(154, 201, 165);
+    background-color: rgb(22, 124, 46);
+ }
+ .time-flex {
+    margin-top: auto;
+    margin-left: auto;
+ }
+  .down-arrow-image {
+      transform: rotateZ(90deg);
+      width: 7%;
+  }
+
+
+@media screen and (max-width:1000px) {
+    .each-flex{
+        width: 70%; 
+    }
+    .search-box {
+        width: 80%;
+    }
+}
+@media screen and (max-width:700px) {
+    .down-arrow-image{
+        width: 10%;
+    }
+}
+@media screen and (max-width:500px) {
+    .each-flex{
+        width: 90%;
+    }
+    .down-arrow-image {
+        width: 15%;
+    }
+}
